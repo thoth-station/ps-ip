@@ -1,63 +1,24 @@
-Predictable Stack for Computer Vision Applications
+Predictable Stack for Image Processing Applications
 --------------------------------------------------
 
-The images described here are built with Thoth Predictable Stacks and contains Computer Vision packages for Data Science usage.
+The images described here are built with Thoth Predictable Stacks and contains Image Processing packages for Data Science usage.
 
-.. image:: https://img.shields.io/github/v/tag/thoth-station/ps-cv?style=plastic
-  :target: https://github.com/thoth-station/ps-cv/releases
+.. image:: https://img.shields.io/github/v/tag/thoth-station/ps-ip?style=plastic
+  :target: https://github.com/thoth-station/ps-ip/releases
   :alt: GitHub tag (latest by date)
 
-List of packages in ps-cv-ocr
+List of packages in ps-ip-ifd
 =============================
 
-.. image:: https://quay.io/repository/thoth-station/ps-cv-ocr/status
-  :target: https://quay.io/repository/thoth-station/ps-cv-ocr?tab=tags
+.. image:: https://quay.io/repository/thoth-station/ps-ip-ifd/status
+  :target: https://quay.io/repository/thoth-station/ps-ip-ifd?tab=tags
   :alt: Quay - Build
 
 .. code-block:: python
 
     - opencv-python
-    - pytesseract
     - pillow
-
-This image contain specific binaries for `openv-cv` and `tesseract`. In particular tesseract languages added are Finnish, Swedish and English).
-
-List of packages in ps-cv-tensorflow
-====================================
-
-.. image:: https://quay.io/repository/thoth-station/ps-cv-tensorflow/status
-  :target: https://quay.io/repository/thoth-station/ps-cv-tensorflow?tab=tags
-  :alt: Quay - Build
-
-.. code-block:: python
-
-    - opencv-python
-    - tensorflow
-    - pillow
-    - keras
-    - tensorboard
-    - tensorflow
-    - jupyter-tensorboard
-
-This image contain specific binaries for `openv-cv`.
-
-List of packages in ps-cv-pytorch
-=================================
-
-.. image:: https://quay.io/repository/thoth-station/ps-cv-pytorch/status
-  :target: https://quay.io/repository/thoth-station/ps-cv-pytorch?tab=tags
-  :alt: Quay - Build
-
-.. code-block:: python
-
-    - opencv-python
-    - torch
-    - torchvision
-    - pillow
-    - tensorboard
-    - jupyter-tensorboard
-
-This image contain specific binaries for `openv-cv`.
+    - pyifd
 
 Generic data science packages
 =============================
