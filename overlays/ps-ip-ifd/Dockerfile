@@ -1,17 +1,17 @@
 FROM quay.io/thoth-station/s2i-generic-data-science-notebook:v0.0.5
-LABEL name="ps-cv-ocr:latest" \
-      summary="computer vision Source-to-Image for Python 3.8 applications." \
+LABEL name="ps-ip-ifd:latest" \
+      summary="Image Processing Source-to-Image for Python 3.8 applications." \
       description="Notebook image based on Source-to-Image.These images can be used in OpenDatahub JupterHub." \
       io.k8s.description="Notebook image based on Source-to-Image.These images can be used in OpenDatahub JupterHub." \
-      io.k8s.display-name="computer vision Notebook Python 3.8-ubi8 S2I" \
+      io.k8s.display-name="Image Processing Notebook Python 3.8-ubi8 S2I" \
       io.openshift.expose-services="8888:http" \
       io.openshift.tags="python,python38" \
-      authoritative-source-url="https://quay.io/thoth-station/ps-cv-ocr" \
+      authoritative-source-url="https://quay.io/thoth-station/ps-ip-ifd" \
       io.openshift.s2i.build.commit.ref="master" \
-      io.openshift.s2i.build.source-location="https://github/thoth-station/ps-cv-ocr" \
+      io.openshift.s2i.build.source-location="https://github/thoth-station/ps-ip-ocr" \
       io.openshift.s2i.build.image="quay.io/thoth-station/s2i-generic-data-science-notebook:v0.0.4"
 
-ENV THAMOS_RUNTIME_ENVIRONMENT="ps-cv-ocr" \
+ENV THAMOS_RUNTIME_ENVIRONMENT="ps-ip-ifd" \
     THOTH_ADVISE="0" \
     THOTH_ERROR_FALLBACK="1" \
     THOTH_DRY_RUN="1" \

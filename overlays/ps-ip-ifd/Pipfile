@@ -5,8 +5,8 @@ name = "pypi"
 
 [packages]
 opencv-python = "*"
-pytesseract = "*"
 pillow = "*"
+pyifd = "*"
 
 [dev-packages]
 

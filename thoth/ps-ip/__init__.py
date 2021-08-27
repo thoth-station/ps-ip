@@ -15,8 +15,8 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-"""Predictable Stacks for Computer Vision Applications."""
+"""Predictable Stacks for Image Processing Applications."""
 
 
-__name__ = "ps-cv"
-__version__ = "0.1.2"
+__name__ = "ps-ip"
+__version__ = "0.1.0"
