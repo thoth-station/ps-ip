@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 opencv-python = "*"
 pillow = "*"
-pyifd = "*"
+pyifd = {git = "https://github.com/EldritchJS/pyIFD/pyIFD.git", editable = true}
 
 [dev-packages]
 
