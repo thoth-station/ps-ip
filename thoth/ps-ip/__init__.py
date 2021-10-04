@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# ps-nlp
+# ps-ip
 # Copyright(C) 2021, Thoth Team
 #
 # This program is free software: you can redistribute it and / or modify
