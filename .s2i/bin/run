@@ -26,4 +26,3 @@ jupyter lab build
 
 # Fix up permissions.
 fix-permissions /opt/app-root
-
