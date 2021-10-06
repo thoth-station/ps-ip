@@ -1,7 +1,17 @@
 # Setup and configuring aicoe-ci with configuration file `.aicoe-ci.yaml`
 # Example `.aicoe-ci.yaml` with a full list of config options is available here: https://github.com/AICoE/aicoe-ci/blob/master/docs/.aicoe-ci.yaml
 ---
-check: []
+check:
+  - overlays-build
+overlays_dir: overlays
+overlays:
+  - name: ps-ip-ifd
+    build:
+      build-stratergy: Dockerfile
+      registry: quay.io
+      registry-org: thoth-station
+      registry-project: ps-ip-ifd
+      registry-secret: thoth-station-thoth-pusher-secret
 # Uncomment following line to build a public image of this repo
 # - thoth-build
 # Uncomment following lines to build a public image of this repo
