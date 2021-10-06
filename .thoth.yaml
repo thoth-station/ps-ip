@@ -4,7 +4,7 @@ requirements_format: pipenv
 overlays_dir: overlays
 
 runtime_environments:
-  - name: ps-is-ifd
+  - name: ps-ip-ifd
     operating_system:
       name: ubi
       version: "8"
