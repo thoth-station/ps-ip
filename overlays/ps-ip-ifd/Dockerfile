@@ -8,8 +8,8 @@ LABEL name="ps-ip-ifd:latest" \
       io.openshift.tags="python,python38" \
       authoritative-source-url="https://quay.io/thoth-station/ps-ip-ifd" \
       io.openshift.s2i.build.commit.ref="master" \
-      io.openshift.s2i.build.source-location="https://github/thoth-station/ps-ip-ocr" \
-      io.openshift.s2i.build.image="quay.io/thoth-station/s2i-generic-data-science-notebook:v0.0.4"
+      io.openshift.s2i.build.source-location="https://github/thoth-station/ps-ip/overlays/ps-ip-ifd" \
+      io.openshift.s2i.build.image="quay.io/thoth-station/s2i-generic-data-science-notebook:v0.0.5"
 
 ENV THAMOS_RUNTIME_ENVIRONMENT="ps-ip-ifd" \
     THOTH_ADVISE="0" \
