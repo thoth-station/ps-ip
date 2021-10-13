@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "772b9eb3efbf3124c556d6681a613bafd4359289936ab58d4b898127f0b958d0"
+            "sha256": "4b45cebb834ed0404c5762e482d7a1c637b0411aeda38adbe520fbd915bfec83"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -84,8 +84,10 @@
             "version": "==2.9.0"
         },
         "jpegio": {
-            "git": "https://github.com/eldritchjs/jpegio",
-            "ref": "f01b9191cd6afd7e451fcf2fbfb8ec2b4917a946"
+            "hashes": [
+                "sha256:5188a1e27af2c7dc2dc41cf183879cd2c78fc529d284042f0e096ece62c10d61"
+            ],
+            "version": "==0.2.7"
         },
         "kiwisolver": {
             "hashes": [
@@ -316,8 +318,11 @@
             "version": "==8.3.2"
         },
         "pyifd": {
-            "git": "https://github.com/EldritchJS/pyIFD",
-            "ref": "e38e4d68eb4fe9351470db3873d652c3ce647202"
+            "hashes": [
+                "sha256:95315ed01d29763c20bb2637e96845c560c0761619550fcef9999024c6877a44"
+            ],
+            "index": "pypi",
+            "version": "==0.0.2"
         },
         "pyparsing": {
             "hashes": [
@@ -439,11 +444,11 @@
         },
         "tifffile": {
             "hashes": [
-                "sha256:524f9f3a96ca91d12e5b5ddce80209d2b07769c1764ceecf505613668143f63c",
-                "sha256:8760e61e30106ea0dab9ec42a238d70a3ff55dde9c54456e7b748fe717cb782d"
+                "sha256:0a78268a2d844af94929512d28b39bd1ea6fe46de4124103840b5fe4e1c555cd",
+                "sha256:98de4a48fbce8f2d4ab225df73d8c9dd6df5540291498adf5f1068d268836da9"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==2021.8.30"
+            "version": "==2021.10.12"
         },
         "tomli": {
             "hashes": [
