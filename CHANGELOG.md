@@ -1,5 +1,9 @@
 # Changelog for Thoth's Template GitHub Project
 
+## Release 0.1.2 (2021-10-18T08:10:56)
+* Bumped version, changed pyIFD to pull from pypi
+* Minor fix in labels
+
 ## Release 0.1.1 (2021-10-07T15:44:30)
 ### Features
 * Updated to properly build pyIFD into the image
