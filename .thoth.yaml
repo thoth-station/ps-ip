@@ -15,11 +15,6 @@ managers:
   - name: info
   - name: version
     configuration:
-      maintainers:
-        - goern
-        - harshad16
-        - pacospace
-        - eldritchjs
       assignees:
         - sesheta
       labels: [bot]
